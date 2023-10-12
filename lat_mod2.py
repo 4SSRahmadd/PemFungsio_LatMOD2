@@ -62,7 +62,7 @@ def display_menu():
 
 
 # TODO 6
-def get_user_input(command): lambda: int(input(command))
+def get_user_input(command): return int(input(command))
 
 
 def main():
